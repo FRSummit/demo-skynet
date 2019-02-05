@@ -28,3 +28,14 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.welcome-section {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.welcome-user-text {
+	margin: 0;
+    color: wheat;
+    text-align: center;
+}
