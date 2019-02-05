@@ -1,0 +1,71 @@
+body{
+	background: black;
+}
+.containner {
+	margin: 0 auto;
+	width: 60%;
+}
+.logo {
+	width: 80px;
+    float: right;
+}
+.title-section {
+	margin-top: 5%;
+}
+.skynet-world-title, .skynet-world-subtitle, .bottom-text {
+	color: white;
+	text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+	margin: 0;
+}
+.skynet-world-subtitle {
+	font-size: 20px;
+}
+input {
+	background: white;
+}
+.form-section {
+	margin-top: 10%;
+    text-align: center;
+}
+.id-input {
+	margin-bottom: 2%; 
+    width: 38%;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+    color: #05772e;
+    background: #4440;
+    border: 2px solid #29b720;
+}
+.password-input {
+	margin-bottom: 2%;
+    width: 38%;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+    color: #05772e;
+    background: #4440;
+    border: 2px solid #29b720;
+}
+.submit-btn {
+    border: none;
+    border: 2px solid #29b720;
+    color: #05772e;
+    background: #4a464347;
+    padding: 12px 142px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bottom-text-section {
+	text-align: center;
+    margin: 15% auto;
+}
+.bottom-text {
+	font-size: 16px
+}
