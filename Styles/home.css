@@ -5,7 +5,7 @@ body{
 	margin: 0 auto;
 	width: 60%;
 }
-ul {
+.menu-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,11 +13,11 @@ ul {
   background-color: #171616;
 }
 
-li {
+.menu-li {
   float: left;
 }
 
-li a {
+.menu-a {
   display: block;
   color: white;
   text-align: center;
@@ -25,7 +25,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.menu-a:hover {
   background-color: #111;
 }
 .welcome-section {
@@ -38,4 +38,25 @@ li a:hover {
 	margin: 0;
     color: wheat;
     text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-one, .column-two {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column-two {
+	width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
